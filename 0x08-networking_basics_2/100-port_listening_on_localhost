@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# Listens on port 98 on localhost.
+# Listens on port 98 on localhost. 
+/**DPORT RELATED**/
 
-nc -1 localhost 98
+nc -l localhost 98
